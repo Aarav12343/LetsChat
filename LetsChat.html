@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>ChatRoom</title>
+    <style>
+    body{
+        text-align: right;
+        padding-right: 60px;
+        padding-left: 60px;
+        padding-top: 60px;
+        padding-bottom: 100px;
+        background-color: rgb(2, 117, 216)
+
+    }
+    </style>
+   <script src = "Room.js"></script>`
+</head>
+<body >
+    <center>
+        <h1 id = "title" class = "color_white">ChatRoom</h1>
+    </center>
+    
+    <button class="glyphicon glyphicon-log-out btn btn-primary " id = "logout" onclick = "Logout()"></button>
+<center>
+    <h3 class = "color_white" id = "username"></h1>
+        <div class = "form-group input_div_room_page">
+    <label>Add Room:</label>
+    <input type = "text" id = "room_name" class ="form_control color_white" placeholder = "Room Name">
+    </div>
+    <button class = "btn btn-primary" id = "AddRoom" onclick = "addRoom()">Add Room</button>
+    <h2 id = "Rooms">Joinable Rooms</h2>
+</center>
+    
+    
+    
+</body>
+</html>
